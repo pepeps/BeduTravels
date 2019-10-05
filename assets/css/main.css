@@ -70,10 +70,12 @@ ul {
   flex-wrap: wrap;
 }
 
-#icons-container{
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+#icons-container2{
+  display: none;
+}
+
+#icons-container3{
+  display: none;
 }
 
 #icons-container i{
@@ -333,6 +335,39 @@ footer > ul > li:first-of-type {
   text-align: center;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #icons-container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  #icons-container{
+    display: none;
+  }
+
+} 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+} 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+
+} 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+ 
+} 
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}
 
 
 
